@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="template" client="site" method="upgrade">
+    <name>dd_schoolday_117</name>
+    <creationDate>2020</creationDate>
+    <author>DiabloDesign</author>
+    <authorEmail>office@diablodesign.eu</authorEmail>
+    <authorUrl>https://diablodesign.eu</authorUrl>
+    <copyright>Copyright (C) 2010 - 2020 DiabloDesign.eu All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GPLv2 or later</license>
+    <version>1.0</version>
+      <description><![CDATA[
+            <style type="text/css" media="all">
+                <!--
+                #wrap1 {padding:0px 0px 4px 0px;}
+                h1 {clear:both;font-family: Georgia, sans-serif;font-size:36px;margin:30px 20px 0px ;padding:0px 0px 14px 10px;color:#FF2300;  font-weight: normal;}
+                h4 { border: none;  margin: 0 0 12px; padding:0; font: 16px/24px Georgia, sans-serif; color: #333; font-weight: bold;}                
+                .wrap2 {background:#fff;padding: 20px; font-family: Arial; font-size:13px; text-align: justify; color: #4d4d4d; line-height: 24px;}
+        
+                -->
+            </style>                        
+            <div id="wrap1">     
+            <h1><a title="Visit the official website!" href="https://www.diablodesign.eu" target="_blank"> <img style="float:left;" src="https://diablodesign.eu/syg.png" margin-top: -20px; alt="diablodesign.eu" /></a>  <em>DD schoolday 117 Blank Template</em></h1>
+            <div class="wrap2">                                         
+            <a title="Visit the official website!" href="https://www.diablodesign.eu" target="_blank"> <img style="float:left;border:1px solid #ccc;margin-right:10px;padding:3px" src="../templates/dd_schoolday_117/images/sc.jpg" border="0" alt="diablodesign.eu" /></a>   
+            <div class="leftside">
+        
+               <h4>DD schollday 117 </h4><p>This is the version of the empty template presenting the huge possibilities of the administration panel.
+The template has been equipped with SP Page Builder a site building system without any coding knowledge. The full version of the template can be purchased via the secure PAYPAL payment platform <a href="https://shop.diablodesign.eu/go.php/buy/dd-schooldday-116"  target="_blank" >PAYPAL</a></h4>
+            </br>
+            <h4>DD schollday 117</h4> <p>Jest to wersja pustego szablonu prezentująca ogromne możliwości panelu administracyjnego.Szablon został wyposażony w SP Page Builder sytem budowania witryn bez znajomości kodowania. Pełną wersję szablonu można zakupić na naszej stronie <a href="http://www.diablodesign.eu/formularz-zamowienia" target="_blank">Formularz Zamówienia</a></p></p><br>
+            <h4>Demo SP Page Builder </h4>
+            <a href="https://youtu.be/YZcT74ZqkOA" target="_blank">https://youtu.be/YZcT74ZqkOA</a>
+            </div></div></div>]]>
+</description>
+    <updateservers>
+        <server type="extension" priority="1" name="shaper_helixultimate">https://www.joomshaper.com/updates/shaper-helixultimate.xml</server>
+    </updateservers>
+
+    <languages>
+        <language tag="en-GB">en-GB.tpl_dd_schoolday_117.ini</language>
+    </languages>
+
+    <positions>
+        <position>title</position>
+        <position>top1</position>
+        <position>top2</position>
+        <position>top3</position>
+        <position>logo</position>
+        <position>menu</position>
+        <position>search</position>
+        <position>slide</position>
+        <position>user1</position>
+        <position>user2</position>
+        <position>user3</position>
+        <position>user4</position>
+        <position>left</position>
+        <position>right</position>
+        <position>feature</position>
+        <position>slider</position>
+        <position>position1</position>
+        <position>position2</position>
+        <position>position3</position>
+        <position>position4</position>
+        <position>position5</position>
+        <position>position6</position>
+        <position>position7</position>
+        <position>position8</position>
+        <position>content-top</position>
+        <position>content-bottom</position>
+        <position>bottom1</position>
+        <position>bottom2</position>
+        <position>bottom3</position>
+        <position>bottom4</position>
+        <position>breadcrumb</position>
+        <position>footer1</position>
+        <position>footer2</position>
+        <position>comingsoon</position>
+        <position>offcanvas</position>
+        <position>pagebuilder</position>
+        <position>404</position>
+        <position>debug</position>
+    </positions>
+
+    <files>
+        <file>index.php</file>
+        <file>template_preview.png</file>
+        <file>template_thumbnail.png</file>
+        <file>options.xml</file>
+        <file>options.json</file>
+        <file>templateDetails.xml</file>
+        <file>offline.php</file>
+        <file>helper.php</file>
+        <file>component.php</file>
+        <file>comingsoon.php</file>
+        <file>error.php</file>
+        <folder>css/</folder>
+        <folder>features/</folder>
+        <folder>headers/</folder>
+        <folder>fonts/</folder>
+        <folder>html/</folder>
+        <folder>images/</folder>
+        <folder>js/</folder>
+        <folder>scss/</folder>
+    </files>
+    <config>
+        <fieldset name="basic" addfieldpath="/plugins/system/helixultimate/fields">
+            <field name="helixdetails" type="helixdetails" />
+        </fieldset>
+    </config>
+</extension>
